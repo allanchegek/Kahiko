@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Raleway&display=swap');
+*{
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(27, 26, 26);
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+.container{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-wrapper{
+    width: 40%;
+    height: 50%;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+.register-wrapper{
+    width: 40%;
+    height: 56%;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    background-image: url(/images/login.jpg);
+background-position:right;
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+.left-registration{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+    background-image: url(/images/login.jpg);
+background-position:center;
+background-size: contain;
+/* background-repeat: no-repeat; */
+}
+.right{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.right p{
+    margin-bottom:30px ;
+}
+.right p:nth-of-type(1){
+    font-size: 22px;
+}
+.right input{
+    width: 295px;
+    height: 6%;
+    border-radius: 2px;
+    padding-left: 10px;
+    color: #1E352F;
+}
+.right label{
+    margin-top: 10px;
+}
+.right button{
+    margin-top: 50px;
+    padding: 10px;
+    max-width: 295px;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    background-color:#D8973C;
+    transition: ease 0.3s;
+}
+.right button:hover{
+    cursor: pointer;
+    background-color: #E4B777;
+}
+.message{
+    max-width: 295px;
+    height: 12%;
+    background-color: rgba(204, 27, 27, 0.452);
+    border: 1px solid rgba(214, 28, 28, 0.596);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+a{
+    font-size: 18px;
+    margin-top: 30%;
+}
+select,option{
+    color: #1E352F;
+}
+input{
+    border-bottom: 1px solid rgb(43, 43, 43);
+}

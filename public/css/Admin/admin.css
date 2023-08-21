@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;400;500&display=swap');
+
+*{
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(68, 68, 68);
+    font-family: 'Source Sans 3', sans-serif;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    height: 50%;
+    top: 25%;
+    left: 30%;
+    position: absolute;
+    border-radius: 10px;
+}
+#login-image{
+    background-image: url('/Images/admin-login.jpg');
+    width: 55%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+
+}
+#login-card{
+    height: 100%;
+    padding: 30px;
+    padding-left: 10%;
+    background-color: rgba(95, 95, 95, 0.521);
+    width: 45%
+}
+#login-card h1{
+margin-bottom: 40px;
+}
+#login-card input{
+    height: 30px;
+    width: 80%;
+}
+#login-card button{
+    width: 50%;
+    margin-top: 50px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    margin-left:37px ;
+    transition: ease 0.3s;
+}
+#login-card button:hover{
+background-color: rgb(94, 94, 94);
+cursor: pointer;
+}

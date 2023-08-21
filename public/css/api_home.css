@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Raleway&display=swap');
+*{
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(59, 59, 59);
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color:#BD632F ;
+    color: aliceblue;
+}
+header nav{
+    display: flex;
+  align-items: center;
+  height: 100%;
+}
+header nav ul{
+    list-style: none;
+    margin-left: 70%;
+}
+header nav ul li{
+    display: inline;
+    margin-left:50px ;
+}
+header nav ul li button,.button_span{
+    margin-left: 20px;
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    color: white;
+    transition: ease 0.4s;
+}
+header nav ul li button:hover,.button_span:hover{
+    cursor: pointer;
+    color: rgb(127, 208, 255);
+}
+#banner{
+    background-image: url('/images/banner.jpg');
+    color: rgb(240, 240, 240);
+    width: 100vw;
+    height: 45vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+#banner p:nth-of-type(1){
+    font-size: 35px;
+    margin-top: 6%;
+}
+#banner p:nth-of-type(2){
+    font-size: 20px;
+    color: azure;
+}
+#main-text{
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#text-text p{
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.links{
+    display: flex;
+}
+.links div{
+    margin-left: 20px;
+    position: relative;
+}
+.links div h3{
+    color: #8b490a;
+}
+.links div span{
+    color: #b37f0f;
+    text-decoration: underline;
+    transition: ease 0.3s;
+}
+.links div span:hover{
+    color: #34aace;
+}
+.user-disabled{
+    cursor: not-allowed;
+    filter: grayscale(100%);
+}
+tr{
+   border-spacing: 7px;
+}
+.floating{
+    position: absolute;
+    width: 300px;
+    height: 120px;
+    background-color: rgb(255, 253, 250);
+    font-size: 14px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    right: 15%;
+    top: 8vh;
+    border-radius: 10px;
+
+}
+.close-btn{
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: -35px;
+    position: relative;
+    background: transparent;
+    border: none;
+    transition: ease 0.3s;
+}
+.close-btn:hover{
+    color: red;
+    cursor: pointer;
+}
+.floating-boxes{
+    width: 300px;
+    background-color: #FCEFEF;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    right: 10%;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+.floating-boxes input{
+    border-bottom:#363636 1.2px solid !important;
+}
+.floating-boxes input,.floating-boxes button{
+    margin-top: 20px;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+}
+.floating-boxes p{
+    font-size: 20px;
+}
+.floating-boxes button{
+    background-color: #363636;
+color: white;
+}
+.floating-boxes button:hover{
+    cursor: pointer;
+    background-color: #474747;
+}
+#error{
+    background-color: rgba(255, 0, 0, 0.473);
+    padding: 7px;
+    font-size: 15px;
+    color: rgb(252, 209, 209);
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+.close-boxes{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.close-boxes:hover{
+    color: rgb(248, 63, 56);
+    text-decoration: underline;
+    cursor: pointer;
+}

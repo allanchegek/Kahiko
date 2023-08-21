@@ -1,0 +1,29 @@
+.btn-group .btn {
+    padding: 0.5rem 1rem !important;
+    margin: 0 !important;
+    line-height: 1 !important;
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    color: #ffffff !important;
+    border-radius: 5px !important;
+    border: 1px solid transparent !important;
+}
+
+.btn-group .btn + .btn {
+background-color: white !important;
+border: 1px solid #1F3BB3 !important;
+color: #1F3BB3 !important;
+border-left: none !important;
+margin-left: -5px !important;
+border-top-left-radius: 0 !important;
+border-bottom-left-radius: 0 !important;
+}
+
+input[type="text"], input[type="email"] {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #1F3BB3;
+    border-radius: 0;
+    background-color: rgba(211, 222, 220, 0.3);
+    margin: 2px 0;
+}

@@ -1,0 +1,65 @@
+.main-container{
+    padding: 20px;
+}
+.main-container #title{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.error-message{
+    width: 60%;
+    height: 30%;
+    position: absolute;
+    top: 35%;
+    left: 19%;
+    text-align: center;
+    padding-top: 8%;
+    font-size: 30px;
+}
+nav{
+    display: flex !important;
+}
+.hide{
+    display: none;
+}
+.after-table{
+    margin-top: 100px;
+    display: flex;
+}
+div button{
+    width: 300px;
+    padding: 10px;
+    margin-left: 20%;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+div button:hover{
+    cursor: pointer;
+    background-color: rgb(61, 61, 61);
+}
+div span{
+    margin-left: 30%;
+    font-size: 30px;
+}
+.disabled-hover:hover{
+    cursor: not-allowed;
+}
+.funds-error{
+    position: relative;
+    width: 400px;
+    height:226px;
+    border-radius: 4px;    
+    left: 33%;
+    top: 100px;
+    background-color: rgba(165, 42, 42, 0.493);
+    border: 1px solid rgba(211, 17, 17, 0.555);
+    
+}
+.funds-error p{
+  
+    font-size: 20px !important;
+    text-align: center;
+    margin-top: 20%;
+   
+}

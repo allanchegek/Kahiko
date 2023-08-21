@@ -1,0 +1,35 @@
+.badge {
+    border-radius: 0px !important;
+    transition: .3s;
+
+}
+
+.badge:hover {
+    cursor: pointer;
+}
+
+.badge-info:hover {
+    background-color: #52CDFF;
+    color: white;
+}
+
+.badge-success:hover {
+    background-color: #34B1AA;
+    color: white;
+}
+.badge-warning:hover {
+    background-color: #ffaf00;
+    color: white;
+}
+.badge-danger:hover {
+    background-color: #F95F53;
+    color: white;
+}
+
+.new-admin {
+    padding: 10px !important;
+}
+
+.table.select-table td i{ 
+    font-size: 20px;
+}
